@@ -22,7 +22,7 @@ class CRUD {
     final sql = '''INSERT INTO ${DatabaseCreator.todoTable}
     (
       ${DatabaseCreator.name},
-      ${DatabaseCreator.phone},
+      ${DatabaseCreator.phone}
     )
     VALUES (?,?)''';
     List<dynamic> params = [todo.name, todo.phone];
